@@ -1,5 +1,5 @@
 ## About this project
-I found the lovely wordpres themes that Anders (http://www.andersnoren.se) is creating and liked elements that are spread across different themes.
+I found the lovely wordpress themes that Anders (http://www.andersnoren.se) is creating and liked elements that are spread across different themes.
 
 I created a child theme of the [hamilton theme](http://www.andersnoren.se/teman/hamilton-wordpress-theme/) and took e.g. the search bar element from the [hitchcock theme](http://www.andersnoren.se/teman/hitchcock-wordpress-theme/).
 
@@ -17,7 +17,7 @@ with
 
 ```
 <ul class="alt-nav main-menu">
-				<?php get_search_form(); ?>
+  <?php get_search_form(); ?>
 ```
 
 Hope to find a smoother solution for this in the future.
