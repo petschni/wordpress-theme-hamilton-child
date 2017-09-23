@@ -11,3 +11,88 @@
  Tags:         blog, two-columns, three-columns, custom-menu, featured-images, threaded-comments, translation-ready, grid-layout, custom-background, custom-logo, editor-style, sticky-post, theme-options, portfolio, photography
  Text Domain:  hamilton-child
 */
+
+
+/*  Header Search  ----------------------------------------- */
+
+input[type=search] {
+   -moz-appearance: none;
+   -webkit-appearance: none;
+}
+
+.main-menu li + .header-search:before { margin-top: -12px; }
+
+.header-search .search-form {
+	width: auto;
+	min-width: 16px;
+	position: absolute;
+	top: -8px;
+	left: 0;
+}
+
+.header-search-container.active .search-form { display: block; }
+
+.main-menu .search-field {
+	display: block;
+	width: 0;
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	font-size: 14px;
+	color: #000;
+	text-indent: -9999px;
+	-webkit-transition: left 200ms linear, width 200ms linear;
+	-o-transition: left 200ms linear, width 200ms linear;
+	-moz-transition: left 200ms linear, width 200ms linear;
+	-ms-transition: left 200ms linear, width 200ms linear;
+	transition: left 200ms linear, width 200ms linear;
+}
+
+.header-search .search-button {
+	display: block;
+	padding: 8px 0 0 0;
+	width: 32px;
+	height: 32px;
+	font-size: 18px;
+	text-align: center;
+	color: #1d1d1d;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+}
+
+.header-search .search-button:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+.header-search form:hover .search-field,
+.header-search .search-field:focus {
+	width: 150px;
+	padding: 8px 32px 7px 0;
+	border-bottom: 1px solid #3d3d3d;
+	text-indent: 0;
+	outline: none;
+	left: -115px;
+	position: absolute;
+}
+
+.header-search form:hover .search-button,
+.header-search .search-field:focus + .search-button {
+	width: 32px;
+}
+
+/*  Header Search  EDND ---------------------------------------- */
+
+
+.section-inner.thin {
+    max-width: 700px;
+}
+
+.alignleft {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}

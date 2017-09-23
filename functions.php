@@ -1,7 +1,6 @@
 <?php
 function my_theme_enqueue_styles() {
-
-    $parent_style = 'hamilton'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
+  $parent_style = 'hamilton';
 
 	wp_enqueue_style( 'hamilton_fontawesome', get_stylesheet_directory_uri() . '/fa/css/font-awesome.css' );
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
